@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal|Taviraj&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f9f9;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+#cards {
+    width: 100%;
+    height: 100vh;
+    background: rgb(233, 111, 238);
+    background: linear-gradient(180deg, rgba(233, 111, 238, 0.6446953781512605) 15%, #a8f14ee8 48%, rgba(51, 80, 218, 0.7539390756302521) 79%, rgba(57, 137, 206, 1) 100%);
+}
+
+.ctitle {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#cards .card-details {
+    max-width: 1260px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#cards .card-wrapper {
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#cards .card-header {
+    padding: 1.6em 0.7em;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.card-title, .card-subtitle {
+    color: #f9f9f9;
+}
+
+.card-subtitle {
+    font-style: italic;
+    font-family: 'Taviraj', sans-serif;
+}
+
+.card-title {
+    font-size: 2rem;
+}
+
+.card-subtitle, .card-tag {
+    font-size: 0.896rem;
+}
+
+.tags {
+    padding-top: 1.5em;
+}
+
+.card-tag-1 {
+    color: #e96fee;
+}
+
+.card-tag-2 {
+    color: #4084dd;
+}
+
+.card-tag-3 {
+    color: #93f11f;
+}
+
+#cards .card-body {
+    /* padding: 2.3em 0.7em; */
+    background: #f9f9f9;
+}
+
+.card-price {
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.underline {
+    padding-bottom: 2px;
+    border-bottom: dotted 1px #4084dd;
+}
+
+#cards .card-btns {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.card-btns .view {
+    color: #4084dd;
+    text-transform: capitalize;
+    font-style: italic;
+    padding: 0.5em 1em;
+    margin-left: 2.5em;
+}
+
+.card-btns .buy {
+    text-transform: capitalize;
+    padding: 0.5em 1em;
+    color: #f9f9f9;
+}
+
+.pink-clr {
+    background: #e96fee;
+}
+
+.blue-clr {
+    background: #4084dd;
+}
+
+.green-clr {
+    background: #93f11f;
+}
+
+#cards .services {
+    padding: 1em 0;
+}
+
+.service-list {
+    list-style: none;
+    padding: 1.3em 0.8em;
+    border-bottom: solid #18181846 1px;
+}
+
+.service-list p {
+    color: #424344;
+}
+
+#cards .card-footer {
+    background-color: #f9f9f9;
+    color: #787f8a;
+    padding: 1.6em 3em;
+    font-size: 0.893rem;
+    text-transform: capitalize;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
